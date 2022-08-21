@@ -15,6 +15,6 @@ Install the following libraries to your Arduino libraries folder before executin
 4. Blynk by Volodymyr Shymanskyy  (Available on Arduino library manager)
 
 ## Directories
-/examples : Example sketches for the blynk connection and temperature and heart rate measurements
+/examples : Example sketches for the blynk connection and temperature and heart rate measurements <br />
 /src      : Source file for the HealthBand program (.ino)
 
