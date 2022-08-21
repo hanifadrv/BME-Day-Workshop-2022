@@ -12,7 +12,7 @@ Install the following libraries to your Arduino libraries folder before executin
 1. Wire (Available on Arduino)
 2. [SparkFun_MAX3010x_Sensor](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
 3. [Adafruit-MLX90614](https://github.com/adafruit/Adafruit-MLX90614-Library)
-4. Blynk /t /t (Available on Arduino library manager)
+4. Blynk \t \t (Available on Arduino library manager)
 
 ## Directories
 /examples : Example sketches for the blynk connection and temperature and heart rate measurements <br />
