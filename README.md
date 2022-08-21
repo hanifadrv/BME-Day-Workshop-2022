@@ -1,6 +1,9 @@
 # BME Day Workshop 2022
 This work is provided for the BME Day Workshop 2022, organized by the Biomedical Engineering department at Swiss German University. This repository involves the guideline to create Real-time Health Monitoring Band using IoT. Details about this project are written on BME Day Workshop 2022 Day 1 Module (available on the reference link below) and on the README section on this repository.
 
+## Real-time Health Monitoring Band using IoT
+This device undergoes heart rate and temperature measurements based on two sensor modules of MAX30102 pulse oximeter sensor and MLX90614 GY906 temperature sensor.
+
 ## Block Diagram
 ![HealthBand Block Diagram](https://user-images.githubusercontent.com/108512595/185776050-f7f194a8-dae0-4d06-a610-88c9fefe6d6e.png)
 
