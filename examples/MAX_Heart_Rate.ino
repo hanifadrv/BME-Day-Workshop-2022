@@ -1,4 +1,7 @@
 /*
+  This example was taken from SparkFun_MAX3010x_Sensor_Library repository
+  https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library
+  
   Optical Heart Rate Detection (PBA Algorithm) using the MAX30105 Breakout
   By: Nathan Seidle @ SparkFun Electronics
   Date: October 2nd, 2016
@@ -42,7 +45,7 @@ void setup()
   Serial.println("Initializing...");
 
   // Initialize sensor
-  if (!particleSensor.begin(Wire, I2C_SPEED_FAST)) //Use default I2C port, 400kHz speed
+  if (!particleSensor.begin()) //Use default I2C port, 400kHz speed
   {
     Serial.println("MAX30105 was not found. Please check wiring/power. ");
     while (1);
