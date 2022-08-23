@@ -54,6 +54,7 @@ const byte RATE_SIZE = 4; // Increase this for more averaging (4 is good enough)
 byte rates[RATE_SIZE];    // Array of heart rates
 byte rateSpot = 0;
 long lastBeat = 0;        // Time at which the last beat occurred
+long irValue;
 
 // Assign variables 
 double beatsPerMinute;    // A variable to calculate heart rate based on time interval
@@ -68,7 +69,7 @@ void tempReading(){
 }
 
 void bpmReading(){
-  long irValue = particleSensor.getIR();
+  irValue = particleSensor.getIR();
 
   if (checkForBeat(irValue) == true)
   {
