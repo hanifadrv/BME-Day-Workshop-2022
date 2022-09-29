@@ -157,7 +157,7 @@ void sendSensor(){
 }
 
 // Set an uptime on Blynk dashboard to see how long the measurement has been running
-void myTimerEvent(){
+void uptimeCounter(){
   Blynk.virtualWrite(V11, millis() / 1000);  
 }
 
@@ -170,7 +170,7 @@ void setup(){
   Blynk.begin(auth, ssid, pw);
   Serial.println("Blynk IoT connected");
   timer.setInterval(1000L, sendSensor);
-  timer.setInterval(1000L, myTimerEvent);
+  timer.setInterval(1000L, uptimeCounter);
 
   // Turn off the device 
   Blynk.virtualWrite(V110,0);     // Switch off the power toggle on Blynk dashboard
