@@ -19,6 +19,7 @@
 #include "MAX30105.h"             // MAX30102 library
 #include "heartRate.h"            // MAX30102 heart rate algorithm 
 #include <Adafruit_MLX90614.h>    // GY906 library
+// #include <Adafruit_I2CDevice.h>   // I2C library
 
 // Set common alieses for the function to simplify the code
 MAX30105 particleSensor;
