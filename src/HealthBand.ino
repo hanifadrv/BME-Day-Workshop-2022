@@ -35,6 +35,7 @@
 #include <WiFi.h>                 // WiFi library
 #include <WiFiClient.h>           // WiFi library
 #include <BlynkSimpleEsp32.h>     // Blynk library
+// #include <Adafruit_I2CDevice.h>   // I2C library
 
 // Set common alieses for the function to simplify the code
 BlynkTimer timer;
