@@ -17,6 +17,7 @@
  ****************************************************/
 
 #include <Adafruit_MLX90614.h>
+// #include <Adafruit_I2CDevice.h>   // I2C library
 
 Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
